@@ -6,7 +6,7 @@ export type CardItem = {
 }
 
 export interface Props {
-    cards: CardItem[];
+    cards: Array<CardItem>;
 }
 
 export default function Contact(
